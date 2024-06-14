@@ -1,0 +1,33 @@
+{
+    "id": "7f945a08-4e1e-47a5-ab0a-a428af461522",
+    "version": "0.0.1",
+    "requiredApiVersion": "^1.19.0",
+    "iconFile": "icon.png",
+    "author": {
+        "name": "Debdut Chakraborty",
+        "homepage": "n/a",
+        "support": "n/a"
+    },
+    "name": "FilteredUsers",
+    "nameSlug": "filteredusers",
+    "classFile": "FilteredUsersApp.ts",
+    "description": "Shows users grouped by owners, leaders and moderators for a channel or group",
+    "implements": [],
+    "permissions": [
+        {
+            "name": "ui.registerButtons"
+        },
+        {
+            "name": "ui.interact"
+        },
+        {
+            "name": "user.read"
+        },
+        {
+            "name": "room.read"
+        },
+        {
+            "name": "persistence"
+        }
+    ]
+}
